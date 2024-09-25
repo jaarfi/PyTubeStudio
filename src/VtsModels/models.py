@@ -306,7 +306,7 @@ class MoveModelRequestData(_ModelRequests):
     """ -360 <= rotation <= 360
     Desired rotation in degrees, positive rotate clockwise, negative rotates counter-clockwise
     """
-    size: Optional[float] = Field(default=-80, ge=-100, le=100)
+    size: Optional[float] = Field(default=0, ge=-100, le=100)
     """The size the model should shrink/enlargen to, -80 is a fairly normal size (provided its absolute)"""
 
 
