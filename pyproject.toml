@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "PyTubeStudio"
-version = "0.0.6"
+version = "0.1.0"
 authors = [
   { name="Jaarfi"},
 ]
@@ -23,3 +23,9 @@ dependencies = [
     "platformdirs",
     "aiofiles"
 ]
+
+[project.urls]
+Homepage = "https://github.com/jaarfi/PyTubeStudio"
+Repository = "https://github.com/jaarfi/PyTubeStudio"
+Issues = "https://github.com/jaarfi/PyTubeStudio/issues"
+Stream = "https://www.twitch.tv/jaarfi"
